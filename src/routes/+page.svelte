@@ -1,7 +1,7 @@
 <script>
    import './styles.css';
     import GithubLogo from '/src/lib/icons/github-mark-white.svelte'
-    import LinkedinLogo from '/src/lib/icons/linkedin-svgrepo-com.svelte'
+    import LinkedinLogo from '/src/lib/icons/linkedin-logo-svgrepo-com.svelte'
 </script>
 
 <svelte:head>
@@ -13,10 +13,10 @@
 	<h1>Emmitt Luhning </h1>
     <h2>Software developer, hacker, alleged android</h2>    
     <div class="icon-container">
-    <a href="https://www.github.com/Em-kale"> 
+    <a target="__blank" href="https://www.github.com/Em-kale"> 
         <GithubLogo className="github-logo"/>
     </a>
-    <a href="https://www.github.com/Em-kale">
+    <a target="__blank" href="https://www.linkedin.com/in/emmittl/">
     <LinkedinLogo className="linkedin-logo"/>
     </a>
     </div>
@@ -31,7 +31,7 @@
 		flex: 0.6;
 	}
   .icon-container{
-        align-items: "center";
+  margin: 100px 0px 0px 0px; 
     } 
     h2{
         font-size: 30px;
